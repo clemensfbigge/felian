@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clemens F. Bigge</title>
+    <link rel="stylesheet" href="../stylesheets/f8.css">
+</head>
+
+    <body>
+        <header>
+            <a class="ich" href="../../index.html">Clemens F. Bigge</a>
+            <button popovertarget="Navigation">Navigation</button>
+
+        <nav popover id="Navigation">
+            <div>
+                <a href="../felian.html">Felian</a>
+                <a href="../bio.html">Bio</a>
+                <a href="../pics.html">Pics</a>
+                <a href="../contact.html">Contact</a>
+            </div>
+        </nav>
+        </header>
+        
+        <main>
+            <div style="left: 200vw;">
+                <nav>
+                        <h4>Navigation<h4>
+                        <li><a href="f1.html">1</a></li>
+                        <li><a href="f2.html">2</a></li>
+                        <li><a href="f3.html">3</a></li>
+                        <li><a href="f4.html">4</a></li>
+                        <li><a href="f5.html">5</a></li><br><br><br> 
+                        <li><a href="f6.html">6</a></li>
+                        <li><a href="f7.html">7</a></li>
+                        <li><a href="f8.html">8</a></li>
+                        <li><a href="f9.html">9</a></li>
+                        <li><a href="f10.html">10</a></li>
+                        <li><a href="f11.html">11</a></li>
+                        <li><a href="f12.html">12</a></li>
+                        <li><a href="f13.html">13</a></li>
+                        <li><a href="f14.html">14</a></li>
+                </nav>
+            </div>
+
+            <div class="content">
+                <h1>Felian 8 - 14th of May 2025</h1>  
+               
+               <script>
+                    function Felian3(){
+                        var music = new Audio('../../songs/V8.mp3');
+                        music.play();
+                        }
+                </script>
+                
+                <input type="button" value="LOFO" onclick="Felian3()" />
+            
+                <h2>Blog</h2>
+                <h3>Wednesday</h3>
+                <p>Oh man. Too little TIME!!! I decided to each week build the website again from scratch using the older versions, instead of copying the whole folder and just work on the new page. That way I learn more, don't forget how the stuff I did works and don't loose oversight. <br><br>I want to be done with the sizing for mobile versions. First I have to check how I can access the website from my phone, while working on it. Then I'll figure out which and how elements have to change with sizing. </p>
+                <h3>Friday</h3>
+                <p>OOOOKKKKKAAAAAYYYYYYY <br><br><br> I am fucking hyped. Thanks to the help awesome friend Toli and Chatgpt I managed to access the Live Server from my Phone and also develop the page specifically for the phone. The design is now more grey, which I like. There are here and there some minor sizing issues. But they'll be easy fixes. Man, this was a big step today. I really happy right now!!! <br><br><br>Now it 15:30 pm and haven't got any music done yet. So let's get some water and a power session in to create some music.</p>
+                <p>alright. 4 pm. it is time to put it up. since i basically had no time, there is not much with this sound. This week I had the idea to play with an LFO on the Volume Envelope of a pad sound. Not much that came out of it. But that's okay. The Website is a little bit more important. Because I want it to be presentable in a few weeks. Alrighty. <br><br>CYA!!!</p>
+                <br><br><br>
+            </div>
+        </main>
+        <footer>
+            <p>Mark VIII</p> <p> ---------- </p><p>=_I°x</p>
+        </footer>   
+        
+        <script>
+            const nav = document.getElementById("Navigation");
+            const btn = document.querySelector('button[popovertarget="Navigation"]');
+
+            if (!HTMLDialogElement.prototype.hasOwnProperty("popover")) {
+                btn.addEventListener("click", () => {
+                    nav.classList.toggle("show");
+                });
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clemens F. Bigge</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+
+    
+</head>
+
+    <body>
+        <header>
+            <a class="ich" href="../../index.html">Clemens F. Bigge</a>
+            <button popovertarget="Navigation">Navigation</button>    
+
+            <nav popover id="Navigation">
+            <div>
+                <a href="felian.html">Felian</a>
+                <a href="bio.html">Bio</a>
+                <a href="pics.html">Pics</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h1>Project Felian</h1>
+                <p class="text" style="line-height: 2rem;">The Idea of Felian is, to learn and document several skills and their developments. Webbuilding, Producing, Composing, new Instruments and Voice. Also it makes me create output und time pressure. The result being, that I have to use whatever comes my way and deal with putting something out, that I feel shameful with.</p>
+            </div>
+
+            <div style="left: 200vw;">
+                <nav>
+                        <h4>Navigation<h4>
+                        <li><a href="fpages/f1.html">1</a></li>
+                        <li><a href="fpages/f2.html">2</a></li>
+                        <li><a href="fpages/f3.html">3</a></li>
+                        <li><a href="fpages/f4.html">4</a></li>
+                        <li><a href="fpages/f5.html">5</a></li><br><br><br> 
+                        <li><a href="fpages/f6.html">6</a></li>
+                        <li><a href="fpages/f7.html">7</a></li>
+                        <li><a href="fpages/f8.html">8</a></li>
+                        <li><a href="fpages/f9.html">9</a></li>
+                        <li><a href="fpages/f10.html">10</a></li>
+                        <li><a href="fpages/f11.html">11</a></li>
+                        <li><a href="fpages/f12.html">12</a></li>
+                        <li><a href="fpages/f13.html">13</a></li>
+                        <li><a href="fpages/f14.html">14</a></li>
+                </nav>
+            </div>
+        </main>
+        <footer>
+            <p>Mark VIII</p> <p> ---------- </p><p>=_I°x</p>
+        </footer>   
+        
+        <script>
+            const nav = document.getElementById("Navigation");
+            const btn = document.querySelector('button[popovertarget="Navigation"]');
+
+            if (!HTMLDialogElement.prototype.hasOwnProperty("popover")) {
+                btn.addEventListener("click", () => {
+                    nav.classList.toggle("show");
+                });
+            }
+        </script>
+
+
+        
+    </body>
+</html>
