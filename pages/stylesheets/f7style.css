@@ -1,0 +1,99 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;   
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    padding-left: 5vw;
+    padding-right: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    ;
+}
+
+.linkfelian {
+    background-color: brown;
+    border-radius: 5ch;
+    padding: 7px;
+}
+.ich {
+    color: greenyellow;
+    border-radius: 5ch;
+    padding: 1vw;
+    background-color: brown;
+}
+
+main {
+    background-color: rgb(43, 28, 21);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.7vw;
+}
+
+h1 {
+    margin-left: 5vw;
+    font-size: 4vw;
+}
+
+h2 {
+    margin-left: 5vw;
+}
+
+h3 {
+    margin-left: 3vw;
+}
+
+input {
+    margin-left: 5vw;
+}
+
+nav {
+    background-color: brown;
+    height: 84.5vh;
+    width: 13vw;
+    max-width: 150px;
+    position: fixed;
+    left: 86.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 10ch;
+    border: solid 2px whitesmoke;
+    border-style: double;
+    font-size: 1.5vw;
+}
+
+footer {
+    background-color: grey;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    footer {
+        background-color: red;
+    }
+}

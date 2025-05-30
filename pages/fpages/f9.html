@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clemens F. Bigge</title>
+    <link rel="stylesheet" href="../stylesheets/f9.css">
+</head>
+
+<body>
+    <header>
+        <a class="ich" href="../../index.html">Clemens F. Bigge</a>
+        <button type="button" popovertarget="Navigation">Navigation</button>
+
+        <nav popover id="Navigation">
+            <div class="main-nav">
+                <a href="../felian.html">Felian</a>
+                <a href="../bio.html">Bio</a>
+                <a href="../pics.html">Pics</a>
+                <a href="..contacts.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div style="left: 200vw;">
+            <nav class="fnav">
+                <li><a href="f1.html">1</a></li>
+                <li><a href="f2.html">2</a></li>
+                <li><a href="f3.html">3</a></li>
+                <li><a href="f4.html">4</a></li>
+                <li><a href="f5.html">5</a></li> <br>
+                <li><a href="f6.html">6</a></li>
+                <li><a href="f7.html">7</a></li>
+                <li><a href="f8.html">8</a></li>
+                <li><a href="f9.html">9</a></li>
+                <li><a href="f10.html">10</a></li>
+                <li><a href="f11.html">11</a></li>
+                <li><a href="f12.html">12</a></li>
+                <li><a href="f13.html">13</a></li>
+                <li><a href="f14.html">14</a></li>
+            </nav>
+        </div>
+
+        <div>
+            <h1>Felian 9 - 23rd May of 2025</h1>
+            <input type="button" value="" onclick="Felian3()" />
+            <h2>Blog</h2>
+            <h3>Monday</h3>
+            <p>Okay, first thing is kind of done. Just creating the new folder and write and copy the scripts. Coming back to formulate the goals for this week. Got Cappucino and I'm hyped!!!</p>
+            <h3>Tuesday</h3>
+            <p>Finished creating and copying. Also fixed a problem. My Goals for this weeK: <br>1.: Fix Main Navigation Positioning for different width <br>2.: Fix the Navigation issue on mobile from last week. <br>3.: Decide the Archtecture of the page and start it. </p>
+            <p>I need to get a grip now on the Architecture.</p>
+            <h3>Wednesday</h3>
+            <p>Okay, I fixed the Navigation Popover Porblem from last week. ChatGPT is the shit man. I now only have deal with the positioning of my Fnav. I feel like I used vh and vw and the others in a bad way. And also I have to get a grip on my Architecture. Today I found the Website of Patrick. I like it. I think I want my index to be just my Symbol and the button for Navigation somehow. I don't know. I have to know what's supposed to be on there. I have to have a Bio, some Pics, a way to contact me, a page with my upcoming dates, maybe some kind of overview what my current projects are. And Felian. I don't know man,</p>
+            <p>Alright. I think I need an Index with my Symbol, short description, Picture, Footer and Navigation. I need a section where write about my musical career and the way i think about music and music in my life. Probably best to have the first nav point as an About/Über mich. Then I am a bit puzzled. I want a Section, where I put my Filmmusic Stuff to show. And also A Section where I put all current projects. And a Section where I put my past Projects. And an upcoming Dates section. Or should I structure the Site in Music, Film-Composition and acting? I don't know man. I need to keep it simple. Index with overview, About me, Film-Music, Projects, Live, Pics, Contact. Also I need links to insta and stuff like that and also a german and english version. Okay, so I need a way to make Navigation 2D. Oh fuck, beacuse Felian is inside of current projects which is in projects. But I want it </p>
+            <p>Okay, fuck it. I didn't have time this week for the music. Here the Website is. Bye</p>
+            <br><br><br>
+        </div>
+    </main>
+
+
+</body>
+
+<footer>
+    <p>Mark IX</p>
+    <p>-------</p>
+    <p>=_I°x</p>
+</footer>
+
+<script>
+
+// Button to play Music
+    function Felian3(){
+        var music = new Audio('../../songs/V9.mp3');
+        music.play();
+    }
+
+
+
+
+    const nav = document.getElementById("Navigation");
+    const btn = document.querySelector('button[popovertarget="Navigation"]');
+
+    if (!("popover" in HTMLElement.prototype)) {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault(); // Prevent "focus first, action later" behavior
+            nav.classList.toggle("show");
+        });
+    }
+
+
+    
+    
+</script>
+</html>
