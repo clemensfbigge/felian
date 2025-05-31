@@ -119,8 +119,9 @@ main {
     
     background-color: #5050502e;
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* vendor prefix for Safari */
-    -webkit-mask-image: -webkit-radial-gradient(white, black); /* iOS fix */
+    -webkit-mask-image: radial-gradient(white, black); /* iOS fix */
+    mask-image: radial-gradient(white, black);
+
     padding-top: 1rem;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 
@@ -337,35 +338,3 @@ button#nav-open {
         display: none;
     }
 }
-
-
-
-
-/*
-
-.side-nav .dropdown-content {
-  position: relative; 
-  background-color: #505050;
-  display: none;
-  padding-left: 1rem;
-  margin-top: 0.5rem;
-}
-
-.side-nav .dropdown-sub ul {
-  position: relative;
-  left: 0;
-  top: 0;
-  background-color: #505050;
-  display: none;
-  padding-left: 1rem;
-  margin-top: 0.5rem;
-}
-
-.side-nav .dropdown.active > .dropdown-content {
-    display: block;
-}
-
-.side-nav .dropdown-sub.active > ul {
-    display: block
-}
-*/
