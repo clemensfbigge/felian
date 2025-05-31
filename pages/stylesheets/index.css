@@ -56,6 +56,12 @@ main {
     z-index: 50;
     font-size: 2rem;
 }
+
+main p {
+    width: 100%;
+    margin: 1.5rem;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
